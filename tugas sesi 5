@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtx49sd1adqrEGib1Gafw/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YudaAnanda2435/latihan-varibel-1/blob/main/tugas%20sesi%205\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A4aL_bb1msLf",
+        "outputId": "55326942-a6dd-4520-9183-ed6afab295f0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MASUKAN NAMA : Yuda Ananda\n",
+            "MASUKAN ALAMAT : Sukabumi\n",
+            "MASUKAN KELAS : TI22E\n",
+            "MASUKAN HOBI : Tidur\n",
+            "perkenalkan nama saya Yuda Ananda, alamat saya Sukabumi, saya dari kelas TI22E, hobi saya Tidur \"😇\" \n"
+          ]
+        }
+      ],
+      "source": [
+        "nama = input('masukan nama : '.upper())\n",
+        "alamat = input('masukan alamat : '.upper())\n",
+        "kelas = input('masukan kelas : '.upper())\n",
+        "hobi = input('masukan hobi : '.upper())\n",
+        "\n",
+        "print(f'perkenalkan nama saya {nama}, alamat saya {alamat}, saya dari kelas {kelas}, hobi saya {hobi} \"\\U0001F607\" ',)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "j0VSyXqyr03k"
+      }
+    }
+  ]
+}
